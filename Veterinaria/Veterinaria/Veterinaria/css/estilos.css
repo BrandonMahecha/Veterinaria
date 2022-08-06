@@ -23,8 +23,6 @@ h2{
     margin: 0;
     text-align: center;
 }
-
-
 h3{
     font-family:'Kanit', Cooper black ;
     text-indent: 4.5em;
@@ -72,7 +70,7 @@ hr.new5{
 #Formulario{
     border-radius: 10px;
     background: #9abfc9;
-    /* padding: 100px; */
+    padding: 100px;
     margin-left: 1.7em;
 }
 #formTitulo{
@@ -83,7 +81,6 @@ hr.new5{
     padding: 2px;
     border: 5px solid #288ba8;
     margin: 10px 0 40px 0;
-    width: 100%;
     
 }
 #formulario h1{
