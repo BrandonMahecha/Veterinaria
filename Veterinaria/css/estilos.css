@@ -1,23 +1,27 @@
-body{
+body {
     padding-top: 2vh;
 }
-#contenedorGeneral{
+
+#contenedorGeneral {
     max-width: 900px;
     padding-top: 10px;
 }
-#Titulo{
+
+#Titulo {
     background-color: #bee8ee;
     border-radius: 10px;
     padding-top: 10px;
     text-align: center;
 }
-h1{
-    font-family:'Kanit', Cooper black;
+
+h1 {
+    font-family: 'Kanit', Cooper black;
     font-size: 3.5em;
     margin: 0;
     text-align: center;
 }
-h2{
+
+h2 {
     font-family: 'Kanit', Arial, Helvetica, sans-serif;
     font-size: 1.7em;
     margin: 0;
@@ -25,57 +29,67 @@ h2{
 }
 
 
-h3{
-    font-family:'Kanit', Cooper black ;
+h3 {
+    font-family: 'Kanit', Cooper black;
     text-indent: 4.5em;
     font-size: 3.5em;
 }
-#imgCatdog{
+
+#imgCatdog {
     width: 220px;
     margin: 10px;
     float: right;
     padding-bottom: 5px;
     border-radius: 20px;
 }
-#barramenu{
+
+#barramenu {
     background-color: #288ba8;
     border-radius: 0 0 10px 10px;
 }
-.vl{
+
+.vl {
     border-left: 3px solid rgb(250, 252, 251);
     height: 50px;
 }
-.navbar-light .navbar-brand{
+
+.navbar-light .navbar-brand {
     color: #fff;
     cursor: pointer;
 }
-#contenido{
+
+#contenido {
     background-color: #bee8ee;
     border-radius: 15px;
     padding-top: 10px;
     width: 518px;
 }
-#Seccion{
+
+#Seccion {
     margin: 0.7em auto;
     padding: 0;
 }
-hr.new5{
+
+hr.new5 {
     height: 10px;
     background-color: white;
 }
-#imgFoto{
+
+#imgFoto {
     float: right;
     width: 200px;
     height: 200px;
     border-radius: 50%;
 }
-#Formulario{
+
+#Formulario {
     border-radius: 10px;
     background: #9abfc9;
     /* padding: 100px; */
     margin-left: 1.7em;
 }
-#formTitulo{
+
+#formTitulo {
     margin: 0 0 0 10px;
     background: #ffffff;
     border-radius: 10px;
@@ -84,23 +98,26 @@ hr.new5{
     border: 5px solid #288ba8;
     margin: 10px 0 40px 0;
     width: 100%;
-    
+
 }
-#formulario h1{
+
+#formulario h1 {
     font-family: 'Kanit', Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 10px;
-    color:aliceblue;
+    color: aliceblue;
 }
-#formulario label{
+
+#formulario label {
     display: block;
     font-weight: bold;
     text-align: right;
     width: 80px;
     float: left;
 }
-#formulario input{
+
+#formulario input {
     float: left;
     font-size: 12px;
     padding: 4px 2px;
@@ -108,7 +125,8 @@ hr.new5{
     width: 200px;
     margin: 2px 0 20px 10px;
 }
-#formulario button{
+
+#formulario button {
     clear: both;
     margin: 0 auto;
     display: flex;
@@ -120,60 +138,67 @@ hr.new5{
     font-size: 11px;
     font-weight: bold;
 }
-#piedepagina{
+
+#piedepagina {
     margin: 0.1em auto;
     padding-top: 10px;
     background-color: #288ba8;
     border-radius: 0 0 10px 10px;
 }
-#piedepagina p{
+
+#piedepagina p {
     color: aliceblue;
     text-align: center;
 }
 
-@media only screen and (max-width: 320px) and (max-width: 480px){
-    #contenedorGeneral{
-        width: 120%; 
+@media only screen and (max-width: 320px) and (max-width: 480px) {
+    #contenedorGeneral {
+        width: 120%;
     }
-    #imgCatdog{
-    width: 80%;
-    height: auto;
-}
 
-.vl{
-    height: 0px;
-}
+    #imgCatdog {
+        width: 80%;
+        height: auto;
+    }
 
-h1{
-    font-family:'Kanit', Cooper black;
-    font-size: 2.5em;
-    margin: 0;
-    text-align: center;
-}
-h2{
-    font-family: 'Kanit', Arial, Helvetica, sans-serif;
-    font-size: 1.7em;
-    margin: 0;
-    text-align: center;
-}
+    .vl {
+        border-left: 1px solid rgb(250, 252, 251);
+        height: 0px;
+    }
+
+    h1 {
+        font-family: 'Kanit', Cooper black;
+        font-size: 2.5em;
+        margin: 0;
+        text-align: center;
+    }
+
+    h2 {
+        font-family: 'Kanit', Arial, Helvetica, sans-serif;
+        font-size: 1.7em;
+        margin: 0;
+        text-align: center;
+    }
 
 
-h3{
-    font-family:'Kanit', Cooper black ;
-    text-indent: 2.9em;
-    font-size: 2.5em;
-}
-#contenido{
-    margin: 0%;
-    width: 100%;
-}
-#Formulario{
-    width: 100%;
-    margin: 0%;
-}
+    h3 {
+        font-family: 'Kanit', Cooper black;
+        text-indent: 2.9em;
+        font-size: 2.5em;
+    }
 
-#imgFoto{
-    width: 50%;
-    height: auto;
-}
+    #contenido {
+        margin: 0%;
+        width: 100%;
+    }
+
+    #Formulario {
+        width: 100%;
+        margin: 0%;
+    }
+
+    #imgFoto {
+        width: 50%;
+        height: auto;
+    }
 }
